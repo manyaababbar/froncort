@@ -1,0 +1,46 @@
+
+## Best Practice .gitignore for Your Project:
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+my_chatbot_data.db
+
+# Node
+node_modules/
+ui/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+dist/
+build/

@@ -71,7 +71,7 @@ npm run dev
 - ✅ **Staff management** with doctor and nurse allocation
 - ✅ **Resource monitoring** including oxygen supply and medical equipment
 - ✅ **Financial analytics** with monthly expenditure and revenue data
-- ✅ **AI-powered insights** using Google's Generative AI
+- ✅ **AI-powered insights** using Google's ADK
 
 ---
 

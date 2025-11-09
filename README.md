@@ -6,8 +6,10 @@ AI-powered hospital resource management system for Pune with real-time monitorin
 
 ### 1️⃣ Clone & Install Dependencies
 ```bash
-git clone https://github.com/manyaababbar/froncort.git
+git clone -b main https://github.com/manyaababbar/froncort.git
 cd froncort
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -72,8 +74,6 @@ npm run dev
 - ✅ **Resource monitoring** including oxygen supply and medical equipment
 - ✅ **Financial analytics** with monthly expenditure and revenue data
 - ✅ **AI-powered insights** using Google's ADK
-
----
 
 ---
 

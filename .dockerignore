@@ -1,0 +1,52 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+venv
+.venv
+env
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Environment
+.env
+.env.local
+
+# Database (don't copy existing DB into container)
+my_chatbot_data.db
+
+# Logs
+*.log
+logs
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov
+
+# Docker
+docker-compose.override.yml

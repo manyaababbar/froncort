@@ -111,15 +111,9 @@ You have access to the following tools:
 
 **Final Output**
 
-Always return a JSON object with the following fields:
+Always return ONLY a natural language summary. Do not return JSON, SQL queries, or raw data in your final response to the user.
 
-```json
-{
-  "summary": "<natural language summary of the result>",
-  "sql": "<the generated SQL query>",
-  "raw_result": "<the raw query output as structured data>",
-  "result_evaluation": "<'Correct' or 'Partial' or error status>"
-}
+Return only the natural language summary in a friendly, conversational tone. The user should not see any JSON, SQL code, or technical details.
 """
 
 
